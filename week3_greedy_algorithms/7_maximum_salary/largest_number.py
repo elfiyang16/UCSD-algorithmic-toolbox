@@ -51,7 +51,6 @@ def largest_number(a):
     	a.pop(a.index(max_num))
 
     return ''.join(map(str, res))
-    
 if __name__ == '__main__':
     input = sys.stdin.read()
     data = input.split()

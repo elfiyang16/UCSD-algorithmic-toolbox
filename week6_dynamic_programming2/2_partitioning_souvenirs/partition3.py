@@ -2,6 +2,8 @@
 import sys
 import itertools
 
+import itertools
+
 def partition3(A):
     for c in itertools.product(range(3), repeat=len(A)):
         sums = [None] * 3
